@@ -7,7 +7,9 @@
 ### How to run 
 
 > git clone https://github.com/gokulapap/ctfs
+
 > pip3 install -r requirements.txt
+
 > python3 app.py
 
 `Access the site at http://127.0.0.1:5000`
