@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style1.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='styles/script.js') }}"></script>
+<title>Weekly CTF</title>
+</head>
+<body>
+<img src="https://i.ibb.co/rcT0kT2/Weekly-CTF-Logo-1.png" alt="user icon" class="logo">
+    <br><br>
+    <div class="cd-tabs">
+      <nav>
+        <ul class="cd-tabs-navigation">
+          <li><a href="#" data-content="login" class="selected">Login</a></li>
+          <li><a href="#" data-content="signup">Signup</a></li>
+        </ul>
+      </nav>
+      <ul class="cd-tabs-content">
+	<br><center><b>{{ info }}</b></center><br>
+        <li data-content="login" class="selected">
+          <form name="login-form" action="/login" method="POST">
+            <div class="form-fild">
+              <label for="username">Email</label>
+              <input type="email" name="username">
+            </div>
+            <div class="form-fild">
+              <label for="password">password</label>
+              <input type="password" name="password">
+            </div>
+            <br>
+            <span class="error"></span>
+            <button type="submit">Submit</button>
+          </form>
+        </li>
+        <li data-content="signup">
+          <form name="signup-form" action="/signup" method="post">
+            <div class="form-fild">
+              <label for="susername">Email</label>
+              <input type="text" name="susername">
+            </div>
+            <div class="form-fild">
+              <label for="spassword">password</label>
+              <input type="password" name="spassword">
+            </div>
+            <div class="form-fild">
+              <label for="spassword2">password again</label>
+              <input type="password" name="spassword2">
+            </div>
+            <span class="error"></span>
+            <button type="submit">Submit</button>
+          </form>
+        </li>
+      </ul>
+    </div> <!-- end cd-tabs -->
+  <footer>
+    <center>Weekly CTF</center>
+  </footer>
+</body>
+</html>
