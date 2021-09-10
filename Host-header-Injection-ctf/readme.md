@@ -1,6 +1,10 @@
 # Host header injection CTF
 
 **Flag** : `wctf{1_L0vE_H3ader5}`
+<br>
+
+**vulnerability exploited** : `Host Header Injection`
+
 
 <br>
 
