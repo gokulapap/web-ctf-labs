@@ -1,6 +1,6 @@
 # Reflective xss cookie steal CTF
 
-**Flag** : `wctf{1_L0vE_H3ader5}`
+**Flag** : `wctf{GrEaT_yOu_ReCoVeReD_tHiS_sItE}`
 
 <br>
 
@@ -12,6 +12,8 @@
 
 > pip3 install -r requirements.txt
 
+> Create account in firebase and add your auth and api keys in app.py
+
 > python3 app.py
 
 <br>
@@ -22,7 +24,7 @@
 
 ### CTF WALKTHROUGH :
 
-[![CTF WALKTHROUGH](https://img.youtube.com/vi/x8mlg8yxci4/0.jpg)](https://www.youtube.com/watch?v=x8mlg8yxci4)
+[![CTF WALKTHROUGH](https://img.youtube.com/vi/x8mlg8yxci4/1.jpg)](https://www.youtube.com/watch?v=x8mlg8yxci4)
 
 
 
