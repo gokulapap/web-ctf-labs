@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>one click</title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<script src="{{url_for('script', filename='login.js')}}"></script>
+</head>
+<body>
+
+<h2>Peruku etha mari crt login pottu one click panna suvar break aayrum</h2>
+<div class="container">
+<div class="main">
+<h2>one click bypasser</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+</div>
+</div>
+</body>
+</html>
