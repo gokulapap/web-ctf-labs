@@ -24,7 +24,7 @@
 
 ### CTF WALKTHROUGH :
 
-[![CTF WALKTHROUGH](https://img.youtube.com/vi/x8mlg8yxci4/1.jpg)](https://www.youtube.com/watch?v=x8mlg8yxci4)
+[![CTF WALKTHROUGH](https://img.youtube.com/vi/x8mlg8yxci4/0.jpg)](https://www.youtube.com/watch?v=x8mlg8yxci4)
 
 
 
