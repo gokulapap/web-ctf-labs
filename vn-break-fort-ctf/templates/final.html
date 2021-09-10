@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>You Won!</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/party.css') }}">
+    </head>
+</html>
+<body onLoad="javascript:myFunction()" >
+
+<!--
+        <section class="content" id="extra">
+        <h2>Hurray !!!</h2>
+        </section>
+-->
+	<section class="fireworks" id="sec1"></section>
+
+	<section class="content" id="sec2">
+        <h2>Hello</h2>
+	</section>
+
+	<section class="content" id="sec3">
+		<h2>
+			<c>Thanks</c> For <c>Rescuing</c> Me
+		</h2>
+	</section>
+	<section class="content" id="sec4">
+		<h2>
+			You <c>Killed</c> Vanakam <c>nanba !!!</c>
+		</h2>
+	</section>
+	<section class="content" id="sec5">
+		<h2>
+			You <c>are</c> Great !!!
+		</h2>
+	</section>
+
+        <section class="content" id="sec6">
+                <h2>
+                        FLAG : <c>FORT_DESTROYED</c>
+                </h2>
+        </section>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="http://transfer.sh/1XsjvPX/jquery.fireworks.js"></script>
+
+	<script type="text/javascript">
+		$('.fireworks').fireworks({ 
+		  sound: true, // sound effect
+		  opacity: 0.9, 
+		  width: '100%', 
+		  height: '100%' 
+		});
+
+  	function myFunction() {
+ 	 var txt;
+	 var person = prompt("Please enter your name:");
+	 txt = "<h2>You <c>Won</c> "+ person + "</h2>";
+  	 document.getElementById("sec2").innerHTML = txt;
+	 pageScroll()
+	}
+
+	function pageScroll() {
+          window.scrollBy(0,50); 
+          scrolldelay = setTimeout('pageScroll()',200); 
+	}
+	</script>
+</body>
+</html>
