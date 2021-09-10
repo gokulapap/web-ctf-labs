@@ -1,6 +1,8 @@
 # Reflective xss cookie steal CTF
 
 **Flag** : `wctf{GrEaT_yOu_ReCoVeReD_tHiS_sItE}`
+<br>
+**Vulnerability exploited ** : `xss`
 
 <br>
 
