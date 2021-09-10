@@ -8,6 +8,8 @@
 
 > git clone https://github.com/gokulapap/ctfs
 
+> cd Host-header-Injection/
+
 > pip3 install -r requirements.txt
 
 > python3 app.py
