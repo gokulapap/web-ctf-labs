@@ -4,7 +4,7 @@
 
 <br>
 
-**Vulnerability exploited** : `xss`
+**Vulnerability exploited** : `XSS (Cross Site Scripting)`
 
 <br>
 
