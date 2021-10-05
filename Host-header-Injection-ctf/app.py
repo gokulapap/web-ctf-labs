@@ -74,6 +74,5 @@ def final():
 	resp.headers['flag'] = "wctf{1_L0vE_H3ader5}"
 	return resp
 
-#main
 if __name__ == "__main__":
 	app.run()
