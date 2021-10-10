@@ -8,3 +8,5 @@ This repo has a collection of some ctfs created by me
 <li> Reflective XSS CTF
 <li> VN Break-Fort CTF
 <li> Web treasure hunt CTF
+<li> Screenshot CTF 
+<li> Sqli CTF
