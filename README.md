@@ -9,4 +9,5 @@ This repo has a collection of some ctfs created by me
 <li> VN Break-Fort CTF
 <li> Web treasure hunt CTF
 <li> Screenshot CTF 
-<li> Sqli CTF
+<li> SQL Injection CTF
+<li> Command Injection CTF
