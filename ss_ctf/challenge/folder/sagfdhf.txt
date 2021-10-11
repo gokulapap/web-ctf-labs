@@ -1,1 +1,0 @@
-TamilCTF{This_flag_can_be_accessed_only_by_localhost}
