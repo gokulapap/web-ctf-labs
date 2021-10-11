@@ -1,0 +1,2 @@
+web: gunicorn app:app
+worker: cd /app/folder ; python -m http.server 5000

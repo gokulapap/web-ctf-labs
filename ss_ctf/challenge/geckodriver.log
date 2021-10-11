@@ -1,0 +1,11 @@
+1629462624499	geckodriver	INFO	Listening on 127.0.0.1:54113
+1629462624504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec6N9HA"
+*** You are running in headless mode.
+1629462625298	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec6N9HA/search.json.mozlz4", (void 0)))
+1629462629818	Marionette	INFO	Listening on port 46095
+1629462629864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
