@@ -4,11 +4,11 @@
 
 ## CTF Challenges List
 
-<li> Host Header Injection CTF
-<li> SSTI in Flask CTF
-<li> Reflective XSS CTF
-<li> VN Break-Fort CTF
-<li> Web treasure hunt CTF
-<li> Screenshot CTF 
-<li> SQL Injection CTF
-<li> Command Injection CTF
+* Host Header Injection CTF
+* SSTI in Flask CTF
+* Reflective XSS CTF
+* VN Break-Fort CTF
+* Web treasure hunt CTF
+* Screenshot CTF 
+* SQL Injection CTF
+* Command Injection CTF
